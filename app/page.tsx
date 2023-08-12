@@ -4,10 +4,13 @@ import Slider from '@/components/Slider'
 
 export default function Home() {
   return (
-    <main className='text-4xl text-green-500'>
+    <main className=''>
       <Slider />
       <Featured />
       <Offer />
     </main>
   )
 }
+
+
+
