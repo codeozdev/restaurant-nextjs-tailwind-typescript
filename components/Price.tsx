@@ -68,3 +68,4 @@ const Price = ({ price, id, options }: Props) => {
 export default Price
 
 //product id sayfasinda kullandik
+//useEffect ile price ve quantity değiştiğinde totali güncelledik
