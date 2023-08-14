@@ -15,7 +15,7 @@ const MenuPage = () => {
             <h1 className='uppercase font-bold text-3xl'>{item.title}</h1>
             <p className='text-sm my-8'>{item.desc}</p>
             <button
-              className={`hidden 2xl:block bg-${item.color} 
+              className={`hidden 2xl:block bg-${item.color}
               text-${
                 item.color === 'black' ? 'white' : 'red-500'
               }  py-2 px-4 rounded-md`}>
@@ -29,3 +29,6 @@ const MenuPage = () => {
 }
 
 export default MenuPage
+
+
+//aradigim ozellik burada
