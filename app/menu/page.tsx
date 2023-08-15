@@ -16,9 +16,10 @@ const MenuPage = () => {
             <p className='text-sm my-8'>{item.desc}</p>
             <button
               className={`hidden 2xl:block bg-${item.color}
+              } 
               text-${
                 item.color === 'black' ? 'white' : 'red-500'
-              }  py-2 px-4 rounded-md`}>
+              } py-2 px-4 rounded-md`}>
               Explore
             </button>
           </div>
@@ -30,5 +31,4 @@ const MenuPage = () => {
 
 export default MenuPage
 
-
-//aradigim ozellik burada
+//button bg-color duzgun calismiyor fakat bir sorun yok gorunuyor
